@@ -1,10 +1,7 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter02
 
-import kotlinx.coroutines.experimental.CommonPool
-import kotlinx.coroutines.experimental.async
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
-import java.util.concurrent.TimeUnit
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 import kotlin.system.measureTimeMillis
 
 /**
@@ -14,7 +11,7 @@ import kotlin.system.measureTimeMillis
 suspend fun longRunningTsk():Long {//(1)
     val time = measureTimeMillis {//(2)
         println("Please wait")
-        delay(2,TimeUnit.SECONDS)//(3)
+        delay(2000)//(3)
         println("Delay Over")
     }
     return time

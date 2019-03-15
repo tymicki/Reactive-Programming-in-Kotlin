@@ -1,15 +1,11 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter02
 
-import com.rivuchk.packtpub.reactivekotlin.join
-import kotlinx.coroutines.experimental.runBlocking
-import kotlin.coroutines.experimental.buildSequence
-
 /**
  * Created by rivuc on 14-07-2017.
  */
 
 fun main(args: Array<String>) {
-    val fibonacciSeries = buildSequence {
+    val fibonacciSeries = sequence {
         var a = 0
         var b = 1
         yield(a)
@@ -23,6 +19,6 @@ fun main(args: Array<String>) {
         }
     }
 
-    println(fibonacciSeries.take(10) join "," )
+    println(fibonacciSeries.take(10))
 
 }

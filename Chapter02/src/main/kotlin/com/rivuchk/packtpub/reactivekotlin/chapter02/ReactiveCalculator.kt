@@ -1,7 +1,7 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter02
 
-import kotlinx.coroutines.experimental.*
-import kotlin.coroutines.experimental.CoroutineContext
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.async
 
 
 /**
@@ -64,7 +64,7 @@ class ReactiveCalculator(a:Int, b:Int) {
 
     suspend fun handleInput(inputLine:String?) {//1
         if(!inputLine.equals("exit")) {
-            val pattern: java.util.regex.Pattern = java.util.regex.Pattern.compile("([a|b])(?:\\s)?=(?:\\s)?(\\d*)");
+            val pattern: java.util.regex.Pattern = java.util.regex.Pattern.compile("([a|b])(?:\\s)?=(?:\\s)?(\\d*)")
 
             var a: Int? = null
             var b: Int? = null
@@ -101,8 +101,9 @@ fun main(args: Array<String>) {
     println("Enter a = <number> or b = <number> in separate lines\nexit to exit the program")
     var line:String?
     do {
-        line = readLine();
-        async(CommonPool) {//2
+        line = readLine()
+        GlobalScope.async {
+            //2
             calculator.handleInput(line)
         }
     } while (line!= null && !line.toLowerCase().contains("exit"))
