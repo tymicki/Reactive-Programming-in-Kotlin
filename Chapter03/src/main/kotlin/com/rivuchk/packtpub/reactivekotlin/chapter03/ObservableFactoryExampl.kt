@@ -3,16 +3,11 @@ package com.rivuchk.packtpub.reactivekotlin.chapter03
 import io.reactivex.Observable
 import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 import java.util.concurrent.TimeUnit
 
-
-/**
- * Created by rivuc on 22-07-2017.
- */
-
-fun main(args: Array<String>) {
+fun main() {
     val observer: Observer<Any> = object : Observer<Any> {
         override fun onComplete() {
             println("All Completed")
@@ -31,15 +26,14 @@ fun main(args: Array<String>) {
         }
     }//Create Observer
 
-    Observable.range(1,10).subscribe(observer)//(1)
+    Observable.range(1, 10).subscribe(observer)//(1)
     Observable.empty<String>().subscribe(observer)//(2)
 
     runBlocking {
 
-        Observable.interval(300,TimeUnit.MILLISECONDS).subscribe(observer)//(3)
+        Observable.interval(300, TimeUnit.MILLISECONDS).subscribe(observer)//(3)
         delay(900)
-        val subscription = Observable.timer(400,TimeUnit.MILLISECONDS).subscribe(observer)//(4)
+        val subscription = Observable.timer(400, TimeUnit.MILLISECONDS).subscribe(observer)//(4)
         delay(450)
     }
-
 }

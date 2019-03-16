@@ -3,14 +3,8 @@ package com.rivuchk.packtpub.reactivekotlin.chapter03
 import io.reactivex.Observable
 import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
-import io.reactivex.rxkotlin.subscribeBy
 
-
-/**
- * Created by rivuc on 22-07-2017.
- */
-
-fun main(args: Array<String>) {
+fun main() {
 
     val observer: Observer<String> = object : Observer<String> {
         override fun onComplete() {
@@ -30,7 +24,8 @@ fun main(args: Array<String>) {
         }
     }//Create Observer
 
-    val observable:Observable<String> = Observable.create<String> {//1
+    val observable: Observable<String> = Observable.create<String> {
+        //1
         it.onNext("Emit 1")
         it.onNext("Emit 2")
         it.onNext("Emit 3")
@@ -40,7 +35,8 @@ fun main(args: Array<String>) {
 
     observable.subscribe(observer)
 
-    val observable2:Observable<String> = Observable.create<String> {//2
+    val observable2: Observable<String> = Observable.create<String> {
+        //2
         it.onNext("Emit 1")
         it.onNext("Emit 2")
         it.onNext("Emit 3")

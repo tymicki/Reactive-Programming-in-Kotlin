@@ -7,12 +7,7 @@ import java.util.concurrent.Callable
 import java.util.concurrent.Future
 import java.util.concurrent.TimeUnit
 
-
-/**
- * Created by rivuc on 22-07-2017.
- */
-
-fun main(args: Array<String>) {
+fun main() {
 
     val observer: Observer<String> = object : Observer<String> {
         override fun onComplete() {
@@ -32,7 +27,7 @@ fun main(args: Array<String>) {
         }
     }//Create Observer
 
-    val list = listOf("String 1","String 2","String 3","String 4")
+    val list = listOf("String 1", "String 2", "String 3", "String 4")
     val observableFromIterable: Observable<String> = Observable.fromIterable(list)//1
     observableFromIterable.subscribe(observer)
 
@@ -43,13 +38,13 @@ fun main(args: Array<String>) {
         }
 
     }
-    val observableFromCallable:Observable<String> = Observable.fromCallable(callable)//2
+    val observableFromCallable: Observable<String> = Observable.fromCallable(callable)//2
     observableFromCallable.subscribe(observer)
 
-    val future:Future<String> = object :Future<String> {
+    val future: Future<String> = object : Future<String> {
         override fun get(): String = "Hello From Future"
 
-        override fun get(timeout: Long, unit: TimeUnit?): String  = "Hello From Future"
+        override fun get(timeout: Long, unit: TimeUnit?): String = "Hello From Future"
 
         override fun isDone(): Boolean = true
 
@@ -58,6 +53,6 @@ fun main(args: Array<String>) {
         override fun cancel(mayInterruptIfRunning: Boolean): Boolean = false
 
     }
-    val observableFromFuture:Observable<String> = Observable.fromFuture(future)//3
+    val observableFromFuture: Observable<String> = Observable.fromFuture(future)//3
     observableFromFuture.subscribe(observer)
 }

@@ -4,13 +4,10 @@ import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
 import io.reactivex.rxkotlin.toObservable
 
-/**
- * Created by rivuc on 22-07-2017.
- */
+fun main() {
 
-fun main(args: Array<String>) {
-
-    val observer: Observer<Any> = object :Observer<Any>{//1
+    val observer: Observer<Any> = object : Observer<Any> {
+        //1
         override fun onComplete() {//2
             println("All Completed")
         }
@@ -34,11 +31,7 @@ fun main(args: Array<String>) {
 
     val observableOnList: io.reactivex.Observable<List<Any>> = io.reactivex.Observable.just(listOf("One", 2, "Three", "Four", 4.5, "Five", 6.0f),
             listOf("List with Single Item"),
-            listOf(1,2,3,4,5,6))//8
-
-
+            listOf(1, 2, 3, 4, 5, 6))//8
 
     observableOnList.subscribe(observer)//9
-
-
 }

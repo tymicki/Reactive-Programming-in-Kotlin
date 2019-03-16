@@ -5,12 +5,7 @@ import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
 import io.reactivex.rxkotlin.toObservable
 
-
-/**
- * Created by rivuc on 22-07-2017.
- */
-
-fun main(args: Array<String>) {
+fun main() {
 
     val observer: Observer<String> = object : Observer<String> {
         override fun onComplete() {
@@ -30,9 +25,9 @@ fun main(args: Array<String>) {
         }
     }//Create Observer
 
-    val list:List<String> = listOf("String 1","String 2","String 3","String 4")
+    val list: List<String> = listOf("String 1", "String 2", "String 3", "String 4")
 
-    val observable:Observable<String> = list.toObservable()
+    val observable: Observable<String> = list.toObservable()
 
     observable.subscribe(observer)
 }

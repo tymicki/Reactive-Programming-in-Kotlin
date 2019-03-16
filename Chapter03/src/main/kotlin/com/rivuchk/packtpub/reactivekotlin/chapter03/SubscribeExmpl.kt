@@ -4,25 +4,23 @@ import io.reactivex.Observable
 import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
 
-/**
- * Created by rivuc on 22-07-2017.
- */
+fun main() {
+    val observable: Observable<Int> = Observable.range(1, 5)//1
 
-fun main(args: Array<String>) {
-    val observable:Observable<Int> = Observable.range(1,5)//1
-
-    observable.subscribe({//2
+    observable.subscribe({
+        //2
         //onNext method
         println("Next $it")
-    },{
+    }, {
         //onError Method
         println("Error ${it.message}")
-    },{
+    }, {
         //onComplete Method
         println("Done")
     })
 
-    val observer: Observer<Int> = object : Observer<Int> {//3
+    val observer: Observer<Int> = object : Observer<Int> {
+        //3
         override fun onComplete() {
             println("All Completed")
         }
@@ -41,6 +39,4 @@ fun main(args: Array<String>) {
     }
 
     observable.subscribe(observer)
-
-
 }
