@@ -1,13 +1,12 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter04
 
-import io.reactivex.schedulers.Schedulers
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Observable
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import io.reactivex.schedulers.Schedulers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 
-
-fun main(args: Array<String>) {
+fun main() {
     val source = Observable.range(1, 1000)
     source.toFlowable(BackpressureStrategy.DROP)
             .map { MyItem8(it) }

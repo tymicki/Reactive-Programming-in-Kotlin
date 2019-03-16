@@ -1,11 +1,11 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter04
 
-import io.reactivex.schedulers.Schedulers
 import io.reactivex.Flowable
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import io.reactivex.schedulers.Schedulers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 
-fun main(args: Array<String>) {
+fun main() {
     val flowable = Flowable.generate<Int> {
         it.onNext(GenerateFlowableItem.item)
     }//(1)
@@ -21,16 +21,17 @@ fun main(args: Array<String>) {
     runBlocking { delay(700000) }
 }
 
-data class MyItemFlowable(val id:Int) {
+data class MyItemFlowable(val id: Int) {
     init {
         println("MyItemFlowable Created $id")
     }
 }
 
 object GenerateFlowableItem {
-    var item:Int = 0//(3)
+    var item: Int = 0
+        //(3)
         get() {
-            field+=1
+            field += 1
             return field//(4)
         }
 }

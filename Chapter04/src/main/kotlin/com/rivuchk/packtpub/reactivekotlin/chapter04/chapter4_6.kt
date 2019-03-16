@@ -1,18 +1,18 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter04
 
-import org.reactivestreams.Subscription
-import org.reactivestreams.Subscriber
-import io.reactivex.schedulers.Schedulers
 import io.reactivex.Flowable
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import io.reactivex.schedulers.Schedulers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
+import org.reactivestreams.Subscriber
+import org.reactivestreams.Subscription
 
-
-fun main(args: Array<String>) {
+fun main() {
     Flowable.range(1, 1000)//(1)
             .map { MyItem5(it) }//(2)
             .observeOn(Schedulers.io())
-            .subscribe(object : Subscriber<MyItem5> {//(3)
+            .subscribe(object : Subscriber<MyItem5> {
+                //(3)
                 override fun onSubscribe(subscription: Subscription) {
                     subscription.request(Long.MAX_VALUE)//(4)
                 }
@@ -33,7 +33,7 @@ fun main(args: Array<String>) {
     runBlocking { delay(60000) }
 }
 
-data class MyItem5 (val id:Int) {
+data class MyItem5(val id: Int) {
     init {
         println("MyItem Created $id")
     }

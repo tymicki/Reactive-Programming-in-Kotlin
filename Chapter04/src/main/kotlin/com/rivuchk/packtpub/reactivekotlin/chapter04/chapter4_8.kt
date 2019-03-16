@@ -4,7 +4,7 @@ import io.reactivex.Observable
 import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
 
-fun main(args: Array<String>) {
+fun main() {
     val observer: Observer<Int> = object : Observer<Int> {
         override fun onComplete() {
             println("All Completed")
@@ -23,8 +23,9 @@ fun main(args: Array<String>) {
         }
     }//Create Observer
 
-    val observable: Observable<Int> = Observable.create<Int> {//1
-        for(i in 1..10) {
+    val observable: Observable<Int> = Observable.create<Int> {
+        //1
+        for (i in 1..10) {
             it.onNext(i)
         }
         it.onComplete()

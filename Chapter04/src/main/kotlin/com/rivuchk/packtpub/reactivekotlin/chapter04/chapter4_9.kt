@@ -3,12 +3,12 @@ package com.rivuchk.packtpub.reactivekotlin.chapter04
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import io.reactivex.schedulers.Schedulers
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 import org.reactivestreams.Subscriber
 import org.reactivestreams.Subscription
 
-fun main(args: Array<String>) {
+fun main() {
     val subscriber: Subscriber<Int> = object : Subscriber<Int> {
         override fun onComplete() {
             println("All Completed")
@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
         }
 
         override fun onError(e: Throwable) {
-            println("Error Occured ${e.message}")
+            println("Error Occurred ${e.message}")
         }
 
         override fun onSubscribe(subscription: Subscription) {
@@ -28,12 +28,13 @@ fun main(args: Array<String>) {
         }
     }//(1)
 
-    val flowable: Flowable<Int> = Flowable.create<Int> ({//1
-        for(i in 1..10) {
+    val flowable: Flowable<Int> = Flowable.create<Int>({
+        //1
+        for (i in 1..10) {
             it.onNext(i)
         }
         it.onComplete()
-    },BackpressureStrategy.BUFFER)//(2)
+    }, BackpressureStrategy.BUFFER)//(2)
 
     flowable
             .observeOn(Schedulers.io())
