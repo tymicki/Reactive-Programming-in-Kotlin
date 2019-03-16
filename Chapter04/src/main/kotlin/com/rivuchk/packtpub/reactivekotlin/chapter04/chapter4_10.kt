@@ -1,9 +1,10 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter04
 
-import io.reactivex.schedulers.Schedulers
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Observable
-import kotlinx.coroutines.*
+import io.reactivex.schedulers.Schedulers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 
 
 fun main() {
@@ -11,14 +12,14 @@ fun main() {
     source.toFlowable(BackpressureStrategy.BUFFER)
             .map { MyItem7(it) }
             .observeOn(Schedulers.computation())
-            .subscribe{
+            .subscribe {
                 print("Rec. $it;\t")
                 runBlocking { delay(600) }
             }
     runBlocking { delay(700000) }
 }
 
-data class MyItem7 (val id:Int) {
+data class MyItem7(val id: Int) {
     init {
         print("MyItem7 init $id;\t")
     }
