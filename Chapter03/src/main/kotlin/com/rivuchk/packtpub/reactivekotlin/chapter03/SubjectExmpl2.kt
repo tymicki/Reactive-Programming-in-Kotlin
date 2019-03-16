@@ -10,10 +10,10 @@ fun main() {
     val observable = Observable.interval(100, TimeUnit.MILLISECONDS)//1
     val subject = PublishSubject.create<Long>()//2
     observable.subscribe(subject)//3
-    subject.subscribe({
+    subject.subscribe {
         //4
         println("Subscription 1 Received $it")
-    })
+    }
     runBlocking { delay(1100) }//5
     subject.subscribe({
         //6

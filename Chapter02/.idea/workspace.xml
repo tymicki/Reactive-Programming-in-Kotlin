@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd2e27f6-36af-4b39-a113-2f17375c6d95" name="Default" comment="code cleanup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Chapter03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter03/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/ObservableExmpl2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter03/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/ObservableExmpl2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter03/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/ObservableFactoryExampl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter03/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/ObservableFactoryExampl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter03/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/ObservableFromExmpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter03/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/ObservableFromExmpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter03/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/ObservaleJustExmpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter03/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/ObservaleJustExmpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter03/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/SubjectExmpl2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter03/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/SubjectExmpl2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter03/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/ToObservable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter03/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/ToObservable.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />

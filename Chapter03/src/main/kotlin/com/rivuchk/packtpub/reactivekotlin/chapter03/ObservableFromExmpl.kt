@@ -31,12 +31,10 @@ fun main() {
     val observableFromIterable: Observable<String> = Observable.fromIterable(list)//1
     observableFromIterable.subscribe(observer)
 
-
     val callable = object : Callable<String> {
         override fun call(): String {
             return "From Callable"
         }
-
     }
     val observableFromCallable: Observable<String> = Observable.fromCallable(callable)//2
     observableFromCallable.subscribe(observer)

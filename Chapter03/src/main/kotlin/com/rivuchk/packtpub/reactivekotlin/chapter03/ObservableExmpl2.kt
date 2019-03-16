@@ -25,13 +25,15 @@ fun main() {
         }
     }
 
-    val observable: io.reactivex.Observable<Any> = listOf("One", 2, "Three", "Four", 4.5, "Five", 6.0f).toObservable() //6
+    val observable: io.reactivex.Observable<Any> =
+            listOf("One", 2, "Three", "Four", 4.5, "Five", 6.0f).toObservable() //6
 
     observable.subscribe(observer)//7
 
-    val observableOnList: io.reactivex.Observable<List<Any>> = io.reactivex.Observable.just(listOf("One", 2, "Three", "Four", 4.5, "Five", 6.0f),
-            listOf("List with Single Item"),
-            listOf(1, 2, 3, 4, 5, 6))//8
+    val observableOnList: io.reactivex.Observable<List<Any>> =
+            io.reactivex.Observable.just(listOf("One", 2, "Three", "Four", 4.5, "Five", 6.0f),
+                    listOf("List with Single Item"),
+                    listOf(1, 2, 3, 4, 5, 6))//8
 
     observableOnList.subscribe(observer)//9
 }
