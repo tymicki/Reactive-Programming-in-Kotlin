@@ -1,10 +1,6 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter02
 
-/**
- * Created by rivuc on 14-07-2017.
- */
-
-fun main(args: Array<String>) {
+fun main() {
     var a = 0
     var b = 1
     print("$a, ")

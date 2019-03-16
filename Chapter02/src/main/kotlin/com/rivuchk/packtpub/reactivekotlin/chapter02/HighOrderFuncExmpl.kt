@@ -1,9 +1,5 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter02
 
-/**
- * Created by Rivu Chakraborty on 11-07-2017.
- */
-
 fun Int.isEven() = ((this % 2) == 0)
 
 fun highOrderFunc(a: Int, validityCheckFunc: (a: Int) -> Boolean) {//(1)
@@ -14,7 +10,7 @@ fun highOrderFunc(a: Int, validityCheckFunc: (a: Int) -> Boolean) {//(1)
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     highOrderFunc(12, { a: Int -> a.isEven() })//(3)
     highOrderFunc(19, { a: Int -> a.isEven() })
 }

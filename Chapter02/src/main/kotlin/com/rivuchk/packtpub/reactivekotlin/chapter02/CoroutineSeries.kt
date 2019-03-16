@@ -1,10 +1,6 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter02
 
-/**
- * Created by rivuc on 14-07-2017.
- */
-
-fun main(args: Array<String>) {
+fun main() {
     val fibonacciSeries = sequence {
         var a = 0
         var b = 1
@@ -18,7 +14,5 @@ fun main(args: Array<String>) {
             b=c
         }
     }
-
-    println(fibonacciSeries.take(10))
-
+    println(fibonacciSeries.take(10).toList())
 }
