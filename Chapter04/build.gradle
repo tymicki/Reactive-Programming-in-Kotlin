@@ -24,7 +24,6 @@ repositories {
     jcenter()
 }
 
-
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
     compile 'io.reactivex.rxjava2:rxkotlin:2.1.0'

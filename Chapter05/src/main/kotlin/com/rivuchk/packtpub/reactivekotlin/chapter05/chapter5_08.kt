@@ -1,10 +1,8 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter05
 
-import io.reactivex.Observable
-import io.reactivex.rxkotlin.cast
 import io.reactivex.rxkotlin.toObservable
 
-fun main(args: Array<String>) {
+fun main() {
     val list = listOf<MyItemInherit>(
             MyItemInherit(1),
             MyItemInherit(2),
@@ -33,13 +31,15 @@ fun main(args: Array<String>) {
             }
 }
 
-open class MyItem(val id:Int) {//(5)
+open class MyItem(val id: Int) {
+    //(5)
     override fun toString(): String {
         return "[MyItem $id]"
     }
 }
 
-class MyItemInherit(id:Int):MyItem(id) {//(6)
+class MyItemInherit(id: Int) : MyItem(id) {
+    //(6)
     override fun toString(): String {
         return "[MyItemInherit $id]"
     }

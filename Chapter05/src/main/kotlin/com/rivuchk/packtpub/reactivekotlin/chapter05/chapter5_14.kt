@@ -3,7 +3,7 @@ package com.rivuchk.packtpub.reactivekotlin.chapter05
 import io.reactivex.Observable
 import io.reactivex.rxkotlin.toObservable
 
-fun main(args: Array<String>) {
+fun main() {
     Observable.range(1,10)
             .scan { previousAccumulation, newEmission ->  previousAccumulation+newEmission }//(1)
             .subscribe { println("Received $it") }

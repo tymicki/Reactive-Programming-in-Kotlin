@@ -2,7 +2,7 @@ package com.rivuchk.packtpub.reactivekotlin.chapter05
 
 import io.reactivex.rxkotlin.toObservable
 
-fun main(args: Array<String>) {
+fun main() {
     println("default with integer")
     listOf(2,6,7,1,3,4,5,8,10,9)
             .toObservable()

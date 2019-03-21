@@ -1,11 +1,11 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter05
 
 import io.reactivex.Observable
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 import java.util.concurrent.TimeUnit
 
-fun main(args: Array<String>) {
+fun main() {
     createObservable()//(1)
             .debounce(200, TimeUnit.MILLISECONDS)//(2)
             .subscribe {
@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
             }
 }
 
-inline fun createObservable():Observable<String> = Observable.create<String> {
+inline fun createObservable(): Observable<String> = Observable.create<String> {
     it.onNext("R")//(4)
     runBlocking { delay(100) }//(5)
     it.onNext("Re")
