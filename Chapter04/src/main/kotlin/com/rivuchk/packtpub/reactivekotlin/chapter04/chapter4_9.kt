@@ -13,33 +13,23 @@ fun main() {
         override fun onComplete() {
             println("All Completed")
         }
-
         override fun onNext(item: Int) {
             println("Next $item")
         }
-
         override fun onError(e: Throwable) {
             println("Error Occurred ${e.message}")
         }
-
         override fun onSubscribe(subscription: Subscription) {
             println("New Subscription ")
             subscription.request(10)
         }
     }//(1)
-
     val flowable: Flowable<Int> = Flowable.create<Int>({
-        //1
         for (i in 1..10) {
             it.onNext(i)
         }
         it.onComplete()
     }, BackpressureStrategy.BUFFER)//(2)
-
-    flowable
-            .observeOn(Schedulers.io())
-            .subscribe(subscriber)//(3)
-
+    flowable.observeOn(Schedulers.io()).subscribe(subscriber)//(3)
     runBlocking { delay(10000) }
-
 }

@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd2e27f6-36af-4b39-a113-2f17375c6d95" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jre8_1_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_annotations_common_1_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_common_1_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_common_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Chapter02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter02/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Chapter03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jre7_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jre8_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_3_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_0_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/chapter04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/chapter04.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/chapter04_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/chapter04_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/chapter04_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/chapter04_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_10.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_11.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_11.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_12.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_12.kt" afterDir="false" />
@@ -38,15 +15,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_16.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_16.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_17.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_17.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_18.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_18.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_19.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_19.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_20.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_20.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_21.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_21.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_22.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_22.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_23.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_23.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_24.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_24.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_4.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_5.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_6.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_7.kt" afterDir="false" />
@@ -79,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_14.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="380">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="e#55#238#0" expanded="true" />
               </folding>
@@ -91,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_16.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="57">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#55#195#0" expanded="true" />
               </folding>
@@ -103,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_17.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="171">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
                 <element signature="e#55#164#0" expanded="true" />
               </folding>
@@ -115,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_18.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="285">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
               <folding>
                 <element signature="e#55#212#0" expanded="true" />
               </folding>
@@ -127,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_19.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="152">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -136,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_20.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="171">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -154,26 +122,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_22.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_24.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="95">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_15.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="e#55#238#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_23.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="114">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -206,14 +177,19 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter02/CoroutineExample1.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter02/CoroutineExample2.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/AsyncSubjectExmpl.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_6.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_15.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_1.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_2.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_4.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_3.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_19.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_20.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_21.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_22.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_23.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_24.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_5.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_6.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_7.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_8.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_9.kt" />
@@ -222,15 +198,10 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_12.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_13.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_14.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_15.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_16.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_17.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_18.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_19.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_20.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_21.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_22.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_23.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_24.kt" />
       </list>
     </option>
   </component>
@@ -245,7 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -284,6 +254,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -292,6 +263,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -313,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_11Kt">
+  <component name="RunManager" selected="Kotlin.com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_24Kt">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -352,66 +324,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_11Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_20Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="chapter04_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_11Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_20Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_21Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="chapter04_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_1Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_21Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_22Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="chapter04_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_2Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_22Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_5Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_23Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="chapter04_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_5Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_23Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_6Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_24Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="chapter04_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_6Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_24Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -428,11 +400,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_11Kt" />
-        <item itemvalue="Kotlin.com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_5Kt" />
-        <item itemvalue="Kotlin.com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_6Kt" />
-        <item itemvalue="Kotlin.com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_2Kt" />
-        <item itemvalue="Kotlin.com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_1Kt" />
+        <item itemvalue="Kotlin.com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_24Kt" />
+        <item itemvalue="Kotlin.com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_23Kt" />
+        <item itemvalue="Kotlin.com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_22Kt" />
+        <item itemvalue="Kotlin.com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_21Kt" />
+        <item itemvalue="Kotlin.com.rivuchk.packtpub.reactivekotlin.chapter04.Chapter4_20Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +425,7 @@
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2663126" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27465856" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -462,7 +434,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32915717" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3294509" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44758734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -496,19 +468,23 @@
     <entry file="file://$PROJECT_DIR$/settings.gradle" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter02/CoroutineExample2.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter03/AsyncSubjectExmpl.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_15.kt">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#55#196#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="589">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_24.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_1.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="458">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#55#242#0" expanded="true" />
@@ -518,7 +494,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_2.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="458">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#55#197#0" expanded="true" />
@@ -528,7 +504,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_3.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="285">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="e#55#155#0" expanded="true" />
@@ -538,7 +514,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_4.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="456">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#55#197#0" expanded="true" />
@@ -546,44 +522,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_5.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="380">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
             <element signature="e#55#195#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.20/3a9a71152b278d5e36e7346554b4dbb03e565e30/kotlin-stdlib-1.3.20-sources.jar!/kotlin/Primitives.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="600" column="25" lean-forward="true" selection-start-line="600" selection-start-column="25" selection-end-line="600" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_6.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="117">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#55#273#0" expanded="true" />
+            <element signature="e#852#911#0" />
+            <element signature="e#955#1011#0" />
+            <element signature="n#!!block;n#MyItem5#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_7.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#55#273#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/disposables/Disposable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_8.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="174">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="48" />
           <folding>
             <element signature="e#55#157#0" expanded="true" />
           </folding>
@@ -592,8 +578,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_9.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="288">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#55#314#0" expanded="true" />
           </folding>
@@ -602,18 +588,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_10.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="247">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding>
-            <element signature="e#55#196#0" expanded="true" />
+            <element signature="n#!!block;n#MyItem7#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_11.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="288">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="e#55#238#0" expanded="true" />
           </folding>
@@ -622,28 +608,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_12.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="237">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding>
             <element signature="e#55#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/BackpressureStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/e11f8b99796174be4f0f255d717f295d5e49a53b/rxjava-2.1.0-sources.jar!/io/reactivex/Flowable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="15632" lean-forward="true" selection-start-line="15632" selection-end-line="15632" />
+          <folding>
+            <element signature="e#546187#546188#0" expanded="true" />
+            <element signature="e#546254#546255#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_13.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="231">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="e#55#238#0" expanded="true" />
+            <element signature="n#!!block;n#MyItem11#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_14.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="380">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="e#55#238#0" expanded="true" />
           </folding>
@@ -652,8 +657,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_16.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="57">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#55#195#0" expanded="true" />
           </folding>
@@ -662,8 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_17.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="171">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
             <element signature="e#55#164#0" expanded="true" />
           </folding>
@@ -672,8 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_18.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="285">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
             <element signature="e#55#212#0" expanded="true" />
           </folding>
@@ -682,15 +687,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_19.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_20.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="171">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -703,22 +708,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_22.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="95">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_15.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#55#238#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_23.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_24.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="114">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -9,7 +9,6 @@ fun main() {
     val flowable = Flowable.generate<Int> {
         it.onNext(GenerateFlowableItem.item)
     }//(1)
-
     flowable
             .map { MyItemFlowable(it) }
             .observeOn(Schedulers.io())
@@ -17,7 +16,6 @@ fun main() {
                 runBlocking { delay(100) }
                 println("Next $it")
             }//(2)
-
     runBlocking { delay(700000) }
 }
 

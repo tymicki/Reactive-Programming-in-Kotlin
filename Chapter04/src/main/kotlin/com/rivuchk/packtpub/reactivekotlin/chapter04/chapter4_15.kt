@@ -6,7 +6,7 @@ import io.reactivex.schedulers.Schedulers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 
-fun main(args: Array<String>) {
+fun main() {
     val source = Observable.range(1, 1000)
     source.toFlowable(BackpressureStrategy.MISSING)//(1)
             .onBackpressureLatest()//(2)

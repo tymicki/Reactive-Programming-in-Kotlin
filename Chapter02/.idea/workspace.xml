@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd2e27f6-36af-4b39-a113-2f17375c6d95" name="Default" comment="code cleanup">
-      <change afterPath="$PROJECT_DIR$/../Chapter04/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jre8_1_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_annotations_common_1_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_common_1_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_common_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter04/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter04/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jre7_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jre8_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_3_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_0_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/.idea/modules/chapter04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/.idea/modules/chapter04.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/.idea/modules/chapter04_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/.idea/modules/chapter04_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/.idea/modules/chapter04_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/.idea/modules/chapter04_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_10.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_11.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_11.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_12.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_12.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_13.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_13.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_14.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_14.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_15.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_15.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_16.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_16.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_17.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_17.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_18.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_18.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_19.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_19.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_20.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_20.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_21.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_21.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_22.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_22.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_23.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_23.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_24.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_24.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_5.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_6.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_7.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_8.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter04/src/main/kotlin/com/rivuchk/packtpub/reactivekotlin/chapter04/chapter4_9.kt" afterDir="false" />
-    </list>
+    <list default="true" id="fd2e27f6-36af-4b39-a113-2f17375c6d95" name="Default" comment="code cleanup" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -156,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="8" column="10" selection-start-line="8" selection-end-line="9" />
+            <state relative-caret-position="244">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -597,8 +546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="8" column="10" selection-start-line="8" selection-end-line="9" />
+        <state relative-caret-position="244">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

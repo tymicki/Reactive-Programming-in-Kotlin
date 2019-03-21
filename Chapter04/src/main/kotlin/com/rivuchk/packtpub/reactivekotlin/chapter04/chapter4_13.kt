@@ -9,12 +9,12 @@ import kotlinx.coroutines.runBlocking
 fun main() {
     val source = Observable.range(1, 1000)
     source.toFlowable(BackpressureStrategy.MISSING)//(1)
-            .onBackpressureBuffer()//(2)
+            .onBackpressureBuffer(20)//(2)
             .map { MyItem11(it) }
             .observeOn(Schedulers.io())
             .subscribe {
                 println(it)
-                runBlocking { delay(100) }
+                runBlocking { delay(1000) }
             }
     runBlocking { delay(600000) }
 }

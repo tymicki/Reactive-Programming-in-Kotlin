@@ -15,7 +15,7 @@ fun main() {
                 println(it)
                 runBlocking { delay(1000) }
             }
-    runBlocking { delay(600000) }
+    runBlocking { delay(700000) }
 }
 
 data class MyItem10(val id: Int) {

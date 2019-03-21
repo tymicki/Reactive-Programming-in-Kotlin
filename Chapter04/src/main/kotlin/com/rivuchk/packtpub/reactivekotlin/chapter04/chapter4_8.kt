@@ -9,28 +9,21 @@ fun main() {
         override fun onComplete() {
             println("All Completed")
         }
-
         override fun onNext(item: Int) {
             println("Next $item")
         }
-
         override fun onError(e: Throwable) {
-            println("Error Occured ${e.message}")
+            println("Error Occurred ${e.message}")
         }
-
         override fun onSubscribe(d: Disposable) {
             println("New Subscription ")
         }
     }//Create Observer
-
-    val observable: Observable<Int> = Observable.create<Int> {
-        //1
+    val observable: Observable<Int> = Observable.create<Int> { //1
         for (i in 1..10) {
             it.onNext(i)
         }
         it.onComplete()
     }
-
     observable.subscribe(observer)
-
 }

@@ -15,9 +15,8 @@ fun main() {
                 lateinit var subscription: Subscription//(1)
                 override fun onSubscribe(subscription: Subscription) {
                     this.subscription = subscription
-                    subscription.request(5)//(2)
+                    subscription.request(5)// 2)
                 }
-
                 override fun onNext(s: MyItem6?) {
                     runBlocking { delay(50) }
                     println("Subscriber received " + s!!)
@@ -26,11 +25,9 @@ fun main() {
                         subscription.request(2)//(4)
                     }
                 }
-
                 override fun onError(e: Throwable) {
                     e.printStackTrace()
                 }
-
                 override fun onComplete() {
                     println("Done!")
                 }

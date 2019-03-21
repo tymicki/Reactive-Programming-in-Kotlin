@@ -14,7 +14,7 @@ fun main() {
             .observeOn(Schedulers.io())
             .subscribe {
                 print("Rec. $it;\t")
-                runBlocking { delay(100) }
+                runBlocking { delay(1000) }
             }
     runBlocking { delay(600000) }
 }

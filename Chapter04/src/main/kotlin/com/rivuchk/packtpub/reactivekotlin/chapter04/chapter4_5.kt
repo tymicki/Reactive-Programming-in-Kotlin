@@ -14,7 +14,7 @@ fun main() {
                 print("Received $it;\t")
                 runBlocking { delay(50) }//(4)
             }, { it.printStackTrace() })
-    runBlocking { delay(70000) }//(5)
+    runBlocking { delay(60000) }//(5)
 }
 
 data class MyItem4(val id: Int) {
