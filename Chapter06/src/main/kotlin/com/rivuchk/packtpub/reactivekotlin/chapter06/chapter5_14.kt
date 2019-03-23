@@ -4,11 +4,11 @@ import io.reactivex.Observable
 import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
 
-fun main(args: Array<String>) {
-    val observable = Observable.range(1,20)
+fun main() {
+    val observable = Observable.range(1, 20)
     observable
-            .takeWhile{item->item<10}//(1)
-            .subscribe(object: Observer<Int> {
+            .takeWhile { item -> item < 10 }//(1)
+            .subscribe(object : Observer<Int> {
                 override fun onError(e: Throwable) {
                     println("Error $e")
                 }

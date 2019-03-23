@@ -4,9 +4,9 @@ import io.reactivex.Observable
 import java.util.*
 import java.util.concurrent.TimeUnit
 
-fun main(args: Array<String>) {
+fun main() {
     println("Without delay")
-    Observable.range(1,10)
+    Observable.range(1, 10)
             .switchMap {
                 val randDelay = Random().nextInt(10)
                 return@switchMap Observable.just(it)//(1)
@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
                 println("Received $it")
             }
     println("With delay")
-    Observable.range(1,10)
+    Observable.range(1, 10)
             .switchMap {
                 val randDelay = Random().nextInt(10)
                 return@switchMap Observable.just(it)

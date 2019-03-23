@@ -4,11 +4,11 @@ import io.reactivex.Observable
 import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
 
-fun main(args: Array<String>) {
-    val observable = Observable.range(1,20)
+fun main() {
+    val observable = Observable.range(1, 20)
     observable
-            .skipWhile {item->item<10}//(1)
-            .subscribe(object: Observer<Int> {
+            .skipWhile { item -> item < 10 }//(1)
+            .subscribe(object : Observer<Int> {
                 override fun onError(e: Throwable) {
                     println("Error $e")
                 }
@@ -24,6 +24,5 @@ fun main(args: Array<String>) {
                 override fun onSubscribe(d: Disposable) {
                     println("starting skipWhile")
                 }
-
             })
 }
