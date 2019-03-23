@@ -1,7 +1,7 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter05
 
 inline fun Int.isEven(): Boolean = (this % 2) == 0
-infix inline fun Sequence<Any>.join(delimeter: String): String {
+inline infix fun Sequence<Any>.join(delimeter: String): String {
     var retString = ""
     this.forEach {
         retString += "$it${delimeter.trim()} "

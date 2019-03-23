@@ -2,6 +2,7 @@
   <dictionary name="jt">
     <words>
       <w>connectable</w>
+      <w>coroutines</w>
       <w>flowable</w>
     </words>
   </dictionary>
