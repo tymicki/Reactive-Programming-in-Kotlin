@@ -1,14 +1,12 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter09
 
 import io.reactivex.Observable
-import io.reactivex.Observer
-import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 
-fun main(args: Array<String>) {
-    Observable.range(1,10)
+fun main() {
+    Observable.range(1, 10)
             .map {
                 println("map - ${Thread.currentThread().name} $it")
                 it

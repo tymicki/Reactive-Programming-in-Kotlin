@@ -1,19 +1,17 @@
 package com.rivuchk.packtpub.reactivekotlin.chapter09
 
-import io.reactivex.Observable
 import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
 import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.rxkotlin.toObservable
 import java.util.concurrent.atomic.AtomicInteger
 
-fun main(args: Array<String>) {
-    listOf("Reactive","Programming","in","Kotlin","by Rivu Chakraborty","Packt")
+fun main() {
+    listOf("Reactive", "Programming", "in", "Kotlin", "by Rivu Chakraborty", "Packt")
             .toObservable()
-            .lift<Pair<Int,String>> {
-                observer ->
+            .lift<Pair<Int, String>> { observer ->
                 val counter = AtomicInteger()
-                object :Observer<String> {
+                object : Observer<String> {
                     override fun onSubscribe(d: Disposable) {
                         observer.onSubscribe(d)
                     }
@@ -32,7 +30,7 @@ fun main(args: Array<String>) {
 
                 }
             }
-            .subscribeBy (
+            .subscribeBy(
                     onNext = {
                         println("Next $it")
                     },

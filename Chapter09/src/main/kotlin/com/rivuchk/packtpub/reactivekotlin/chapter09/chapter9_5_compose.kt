@@ -4,13 +4,12 @@ import io.reactivex.Observable
 import io.reactivex.ObservableSource
 import io.reactivex.ObservableTransformer
 import io.reactivex.Scheduler
-import io.reactivex.annotations.NonNull
 import io.reactivex.schedulers.Schedulers
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 
-fun main(args: Array<String>) {
-    Observable.range(1,10)
+fun main() {
+    Observable.range(1, 10)
             .map {
                 println("map - ${Thread.currentThread().name} $it")
                 it
@@ -24,7 +23,7 @@ fun main(args: Array<String>) {
     runBlocking { delay(100) }
 }
 
-class SchedulerManager<T>(val subscribeScheduler:Scheduler, val observeScheduler:Scheduler):ObservableTransformer<T,T> {
+class SchedulerManager<T>(val subscribeScheduler: Scheduler, val observeScheduler: Scheduler) : ObservableTransformer<T, T> {
     override fun apply(upstream: Observable<T>): ObservableSource<T> {
         return upstream.subscribeOn(subscribeScheduler)
                 .observeOn(observeScheduler)
