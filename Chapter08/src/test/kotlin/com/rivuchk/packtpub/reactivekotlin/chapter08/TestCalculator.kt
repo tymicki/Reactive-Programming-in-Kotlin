@@ -2,8 +2,12 @@ package com.rivuchk.packtpub.reactivekotlin.chapter08
 
 //(1)
 
+import com.rivuchk.packtpub.reactivekotlin.chapter8.add
+import com.rivuchk.packtpub.reactivekotlin.chapter8.divide
+import com.rivuchk.packtpub.reactivekotlin.chapter8.mult
+import com.rivuchk.packtpub.reactivekotlin.chapter8.substract
 import org.junit.Test
-import kotlin.test.*
+import kotlin.test.assertEquals
 
 class TestCalculator {
     @Test

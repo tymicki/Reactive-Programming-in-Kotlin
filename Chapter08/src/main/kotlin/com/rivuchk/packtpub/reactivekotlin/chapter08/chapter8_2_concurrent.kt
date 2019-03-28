@@ -2,10 +2,10 @@ package com.rivuchk.packtpub.reactivekotlin.chapter8
 
 import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 
-fun main(args: Array<String>) {
+fun main() {
     Observable.range(1,10)
             .subscribeOn(Schedulers.computation())
             .subscribe {

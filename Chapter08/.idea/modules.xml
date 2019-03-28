@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter08.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter08.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter08.iml" group="chapter08" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter08_main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter08_main.iml" group="chapter08" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter08_test.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter08_test.iml" group="chapter08" />
     </modules>
