@@ -6,10 +6,10 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 
 fun main() {
-    Observable.range(1,10)
+    Observable.range(1, 10)
             .subscribeOn(Schedulers.computation())
-            .subscribe {
-                item -> println("Received $item")
+            .subscribe { item ->
+                println("Received $item")
             }
     runBlocking { delay(10) }
 }

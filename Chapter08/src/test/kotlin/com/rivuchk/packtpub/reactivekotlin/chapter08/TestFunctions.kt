@@ -8,16 +8,16 @@ class TestFunctions {
 
     @Test
     fun `expected block evaluation`() {
-        expect(10,{
-            val x=5
-            val y=2
-            x*y
+        expect(10, {
+            val x = 5
+            val y = 2
+            x * y
         })
     }
 
     @Test
     fun `assert illegal value`() {
-        assertNotEquals(-1,Random().nextInt(1))
+        assertNotEquals(-1, Random().nextInt(1))
     }
 
     @Test
