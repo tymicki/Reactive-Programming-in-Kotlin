@@ -2,15 +2,14 @@ package com.rivuchk.packtpub.reactivekotlin.chapter7
 
 import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers
-import kotlinx.coroutines.experimental.CommonPool
-import kotlinx.coroutines.experimental.async
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
-import kotlin.coroutines.experimental.CoroutineContext
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.async
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 
-fun main(args: Array<String>) {
+fun main() {
 
-    async(CommonPool) {
+    GlobalScope.async {
         Observable.range(1, 10)
                 .subscribeOn(Schedulers.single())//(1)
                 .subscribe {

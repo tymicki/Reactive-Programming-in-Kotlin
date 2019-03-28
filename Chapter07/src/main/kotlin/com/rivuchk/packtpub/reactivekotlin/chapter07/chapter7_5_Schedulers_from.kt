@@ -3,15 +3,15 @@ package com.rivuchk.packtpub.reactivekotlin.chapter7
 import io.reactivex.Observable
 import io.reactivex.Scheduler
 import io.reactivex.schedulers.Schedulers
-import kotlinx.coroutines.experimental.delay
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
 import java.util.concurrent.Executor
 import java.util.concurrent.Executors
 
-fun main(args: Array<String>) {
+fun main() {
 
-    val executor:Executor = Executors.newFixedThreadPool(2)//(1)
-    val scheduler:Scheduler = Schedulers.from(executor)//(2)
+    val executor: Executor = Executors.newFixedThreadPool(2)//(1)
+    val scheduler: Scheduler = Schedulers.from(executor)//(2)
 
     Observable.range(1, 10)
             .subscribeOn(scheduler)//(3)
