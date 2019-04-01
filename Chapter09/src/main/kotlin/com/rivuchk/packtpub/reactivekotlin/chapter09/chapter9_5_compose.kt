@@ -23,7 +23,8 @@ fun main() {
     runBlocking { delay(100) }
 }
 
-class SchedulerManager<T>(val subscribeScheduler: Scheduler, val observeScheduler: Scheduler) : ObservableTransformer<T, T> {
+class SchedulerManager<T>(val subscribeScheduler: Scheduler, val observeScheduler: Scheduler) :
+        ObservableTransformer<T, T> {
     override fun apply(upstream: Observable<T>): ObservableSource<T> {
         return upstream.subscribeOn(subscribeScheduler)
                 .observeOn(observeScheduler)
